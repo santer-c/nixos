@@ -5,10 +5,6 @@
     ./modules/bundle.nix
   ];
 
-  disabledModules = [
-    ./modules/xserver.nix
-  ];
-
   networking.hostName = "nixos"; # Define your hostname.
 
   time.timeZone = "America/New_York"; # Set your time zone.
