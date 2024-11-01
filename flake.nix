@@ -32,7 +32,7 @@
       ];
     };
 
-    homeConfigurations.bocchi = home-manager.lib.homeManagerConfiguration {
+    homeConfigurations.username = home-manager.lib.homeManagerConfiguration {
       pkgs = nixpkgs.legacyPackages.${system};
       modules = [ ./home-manager/home.nix ];
     };
