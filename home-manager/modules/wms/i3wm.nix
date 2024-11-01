@@ -2,8 +2,8 @@
 
 	xsession.windowManager.i3 = {
 		enable = true;
-		package = pkgs.i3-gaps;
 		config = {
+			terminal = "alacritty";
 			modifier = "Mod4";
 			gaps = {
 				inner = 10;
